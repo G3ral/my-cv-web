@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio | [Tu Nombre]</title>
+    <link rel="stylesheet" href="/style/style.css">
+</head>
+
+<body>
+
+    <!-- BARRA DE NAVEGACIÓN -->
+    <header>
+        <nav>
+            <div class="logo">&lt;[Tu Nombre]/&gt;</div>
+            <ul class="menu">
+                <li><a href="#sobre-mi">Sobre mí</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#experiencia">Experiencia</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+            </ul>
+            <!-- Botón para el Modo Oscuro/Claro que programaremos con JS -->
+            <button id="btn-tema" aria-label="Cambiar tema">🌙</button>
+        </nav>
+    </header>
+
+    <main>
+        <!-- SECCIÓN PRINCIPAL (HERO) -->
+        <section id="inicio" class="hero">
+            <h1>Hola, soy <span class="resaltado">[Tu Nombre]</span></h1>
+            <h2>Desarrollador Junior Front-End</h2>
+            <p>Con más de 4 años de experiencia en entornos tecnológicos, integrando desarrollo web con soporte y
+                análisis de sistemas. Especializado en JavaScript, SQL y creación de interfaces web.</p>
+
+            <div class="acciones">
+                <!-- Botón para descargar el CV -->
+                <a href="./assets/mi-curriculum.pdf" download="CV_Geraldy_Ibarra.pdf" class="btn btn-primario">
+                    Descargar CV
+                </a>
+                <!-- Enlaces de contacto -->
+                <a href="https://github.com/G3ral?tab=repositories" target="_blank" rel="noopener noreferrer"
+                    class="btn btn-secundario">GitHub</a>
+                <a href="https://wa.me/50257240467" target="_blank" rel="noopener noreferrer"
+                    class="btn btn-secundario">WhatsApp</a>
+                <a href="mailto:mgifuentes25@gmail.com" class="btn btn-secundario">Correo</a>
+            </div>
+        </section>
+
+        <!-- SECCIÓN DE HABILIDADES -->
+        <section id="habilidades">
+            <h2>Habilidades Técnicas</h2>
+            <div class="grid-habilidades">
+                <article class="tarjeta-habilidad">HTML5 & CSS3</article>
+                <article class="tarjeta-habilidad">JavaScript</article>
+                <article class="tarjeta-habilidad">SQL Server & MySQL</article>
+                <article class="tarjeta-habilidad">Git & GitHub</article>
+                <article class="tarjeta-habilidad">Soporte Técnico (Hardware/Software)</article>
+                <article class="tarjeta-habilidad">React (Básico) & PHP</article>
+                <article class="tarjeta-habilidad">C# & PostgreSQL</article>
+            </div>
+        </section>
+
+        <!-- SECCIÓN DE EXPERIENCIA -->
+        <!-- SECCIÓN DE EXPERIENCIA -->
+        <section id="experiencia">
+            <h2>Experiencia Profesional</h2>
+            <div class="timeline">
+                <article class="item-experiencia">
+                    <h3>Técnico de Soporte Senior (IT)</h3>
+                    <h4>Ricoh (CIAM) | Jul 2022 - Actualidad</h4>
+                    <p>Soporte a más de 150 usuarios. Gestión de tickets, mantenimiento de hardware/software, consultas en SQL Server y mejora del 50% en atención al usuario.</p>
+                </article>
+                
+                <article class="item-experiencia">
+                    <h3>Técnico de Soporte y Apoyo en Sistemas/RRHH</h3>
+                    <h4>Guatemala Dispatch Service | Mar 2019 - Nov 2021</h4>
+                    <p>Soporte técnico, administración de bases de datos de personal y apoyo en la implementación de la página web corporativa.</p>
+                </article>
+
+                <article class="item-experiencia">
+                    <h3>Auxiliar de Reclutamiento y Selección</h3>
+                    <h4>La Seguridad Global S.A. | Ene 2017 - Nov 2018</h4>
+                    <p>Gestión de bases de datos de personal y control de expedientes, mejorando la organización documental en un 15%.</p>
+                </article>
+
+                <article class="item-experiencia">
+                    <h3>Gestor Aduanero</h3>
+                    <h4>SL EXPRESS | Ago 2011 - Abr 2014</h4>
+                    <p>Digitalización y gestión de trámites aduaneros, incrementando en 55% la eficiencia operativa y coordinación logística.</p>
+                </article>
+            </div>
+            
+            <!-- NUEVA SECCIÓN DE EDUCACIÓN -->
+            <h2 style="margin-top: 3rem;">Educación y Cursos</h2>
+            <div class="timeline">
+                <article class="item-experiencia">
+                    <h3>Cursos de Desarrollo Web e Infraestructura</h3>
+                    <h4>Intecap | Edutec | Edteam</h4>
+                    <ul>
+                        <li>Fundamentos de PHP y Diseño Web Front-End (Edutec).</li>
+                        <li>Git y GitHub desde cero (Edteam).</li>
+                        <li>Programación en JavaScript, conexión a bases de datos, Instalación de Hardware/Software (Intecap).</li>
+                    </ul>
+                </article>
+            </div>
+        </section>
+
+        <!-- SECCIÓN DE PROYECTOS -->
+        <section id="proyectos">
+            <h2>Mis Proyectos</h2>
+            <p>Próximamente: Aquí agregaremos el sistema de inventario y la app de tareas.</p>
+        </section>
+    </main>
+
+    <!-- PIE DE PÁGINA -->
+    <footer class="footer">
+        <p>&copy; <span id="year"></span> Geraldy Ibarra. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="/script/app.js"></script>
+</body>
+
+</html>
