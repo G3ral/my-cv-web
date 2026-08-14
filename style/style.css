@@ -119,7 +119,7 @@ h2 {
 }
 
 .hero h1 {
-  font-size: 3rem;
+  font-size: 2rem;
   margin-bottom: 1rem;
   /* color: var(--texto-principal); */
 }
@@ -129,7 +129,7 @@ h2 {
 }
 
 .hero p {
-  font-size: 1.2rem;
+  font-size: 1rem;
   color: var(--texto-secundario);
   max-width: 800px;
   margin: 0 auto 2rem auto;
@@ -176,12 +176,12 @@ h2 {
 .grid-habilidades {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 1.5rem;
+  gap: 1rem;
 }
 
 .tarjeta-habilidad {
   background-color: var(--bg-secundario);
-  padding: 1.5rem;
+  padding: 1rem;
   border-radius: 8px;
   text-align: center;
   font-weight: bold;
@@ -219,6 +219,6 @@ h2 {
     display: none; /* Ocultamos el menú en celulares por ahora */
   }
   .hero h1 {
-    font-size: 2.5rem;
+    font-size: 2.1rem;
   }
 }
