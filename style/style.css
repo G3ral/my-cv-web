@@ -12,11 +12,11 @@
 
 /* Cuando el 'body' tenga la clase 'dark-mode', las variables cambian de valor */
 body.dark-mode {
-  --bg-principal: #0E131F; /* Azul muy oscuro/negro */
+  --bg-principal: #000000; /* Azul muy oscuro/negro */
   --bg-secundario: #1e293b;
   --texto-principal: #f8fafc;
   --texto-secundario: #cbd5e1;
-  --color-acento: #3b82f6; /* Azul brillante */
+  --color-acento: #054b7c; /* Azul brillante */
   --color-acento-hover: #60a5fa;
   --borde: #334155;
 }
